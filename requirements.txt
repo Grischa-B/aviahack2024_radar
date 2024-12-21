@@ -2,3 +2,5 @@ django
 djangorestframework
 pytz
 influxdb-client
+django-webpack-loader
+whitenoise

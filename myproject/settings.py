@@ -127,3 +127,15 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ['http://localhost:8000']
 CSRF_COOKIE_HTTPONLY = False
+
+
+# Static files
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+# Whitenoise for production
+MIDDLEWARE += ['whitenoise.middleware.WhiteNoiseMiddleware']
+
+# Templates settings for React
+TEMPLATES[0]['DIRS'] = [BASE_DIR / "frontend" / "build"]
