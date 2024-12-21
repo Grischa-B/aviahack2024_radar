@@ -1,0 +1,25 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+env/
+venv/
+
+# SQLite database
+db.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Docker-related files (optional, если есть специфические файлы для Docker)
+.docker/
+
+# .env files for environment variables
+.env

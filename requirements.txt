@@ -1,0 +1,4 @@
+django
+djangorestframework
+pytz
+influxdb-client
