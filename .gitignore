@@ -48,3 +48,5 @@ frontend/yarn-error.log*
 
 frontend/static
 frontend/package-lock.json
+
+finetuned_rubert
