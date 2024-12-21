@@ -7,6 +7,7 @@ services:
       - db
     volumes:
       - .:/app
+      - ./frontend:/app/frontend
     command: python manage.py runserver 0.0.0.0:8000
     environment:
       - INFLUXDB_URL=${INFLUXDB_URL}
